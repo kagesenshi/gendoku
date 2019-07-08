@@ -22,6 +22,7 @@ setup(name='gendoku',
           'click',
           'PyYAML',
           'jinja2',
+          'cookiecutter',
           'pandoc-plantuml-filter',
       ],
       entry_points={
