@@ -19,8 +19,14 @@ setup(name='gendoku',
       zip_safe=False,
       install_requires=[
           # -*- Extra requirements: -*-
+          'click',
+          'PyYAML',
+          'jinja2',
+          'pandoc-plantuml-filter',
       ],
-      entry_points="""
-      # -*- Entry points: -*-
-      """,
+      entry_points={
+          'console_scripts': [
+                'gendoku=gendoku.cli:main'
+            ]
+          }
       )

@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "6e4027688f3cdcfefc9f4e188245395777e85c55c85a9196a922020212a8de09"
+            "sha256": "9291928f803e1fdd99b45d38c666cc8cbefe723406123ac920107dbc4b6e8871"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -17,6 +17,7 @@
     },
     "default": {
         "gendoku": {
+            "editable": true,
             "path": "."
         }
     },
